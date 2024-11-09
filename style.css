@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+body {
+    background: #202C36;
+
+
+}
+
+ .div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 81px;
+    color: white;
+    background-color: rgba(43, 56, 68, 1);
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: rgba(43, 56, 68, 1);
+    width: 480px;
+    height: 56px;
+    margin-left: 117px;
+    gap: 24px;
+}
+
+
+.search input {
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.search img {
+    margin-left: 32px;
+    width: 18px;
+}
+
+.section-1 {
+    background-color: rgba(32, 44, 54, 1);
+    height: 900px;
+    padding-top: 48px;
+}
+
+.big-box {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+
+}
+
+.card-1 {
+    width: 267px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-1 h3 {
+    margin-top: 32px;
+}
+
+.card-2 {
+    width: 264px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-2 h3 {
+    margin-top: 32px;
+}
+.card-2 img {
+    width: 264px;
+    height: 160px;
+}
+
+.card-3 {
+    width: 264px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-3 h3 {
+    margin-top: 32px;
+}
+.card-3 img {
+    width: 264px;
+    height: 160px;
+}
+
+.card-4 {
+    width: 264px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-4 h3 {
+    margin-top: 32px;
+}
+.card-4 img {
+    width: 264px;
+    height: 160px;
+}
+
+.card-5 {
+    width: 264px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-5 h3 {
+    margin-top: 32px;
+}
+.card-5 img {
+    width: 264px;
+    height: 160px;
+}
+
+
+.card-6 {
+    width: 264px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-6 h3 {
+    margin-top: 32px;
+}
+.card-6 img {
+    width: 264px;
+    height: 160px;
+}
+.card-7 {
+    width: 264px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-7 h3 {
+    margin-top: 32px;
+}
+.card-7 img {
+    width: 264px;
+    height: 160px;
+}
+
+
+.card-8 {
+    width: 264px;
+    height: 250px;
+    background-color: rgba(43, 56, 68, 1);
+    color: white;
+    text-align: center;
+}
+.card-8 h3 {
+    margin-top: 32px;
+}
+.card-8 img {
+    width: 264px;
+    height: 160px;
+}
+
+
+
+
+@media(max-width: 860px) {
+    .search {
+        width: 768px;
+        height: 101px;
+        margin-left: 40px;
+    }
+
+    .section-1 {
+        height: 280vh;
+    }
+
+    .big-box {
+        display: flex;
+        justify-content: space-between ;
+        flex-wrap: wrap;
+        margin: 40px 20px;
+    }
+}
+
+
+@media(max-width: 808px) {
+    .search{
+        width: 450px;
+        height: 60px;
+        margin-left: 30px;
+    }
+    .body {
+        background: #202C36;
+
+    }
+}
+
+@media(max-width: 500px) {
+    nav h1 {
+        font-size: 14px;
+    }
+    .search{
+        width: 450px;
+        height: 50px;
+        margin-left: 24px;
+    }
+
+    .section-1 {
+        height: 530vh;
+    }
+
+    .big-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+}
